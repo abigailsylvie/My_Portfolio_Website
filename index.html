@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Abigail Sylvie</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/4a8e27f8f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+
+        <img class="profile-img" src="images/abigailsylvie.jpg" alt="abigail-profile-img">
+        <h3 class="pro">Hello!</h3>
+        <h3 class="pro">I'm Abigail Sylvie.</h3>
+        <h3 class="pro">a passionate technologist.</h3>
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+  <!--------------about------------------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I’m passionate about building secure, scalable, and innovative solutions in
+            cloud computing and cybersecurity. This website showcases my journey,
+            projects, and ways to connect with me.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming Languages</span><br>Python, Java, JavaScript, Bash, SQL</li>
+              <li><span>Web Development</span><br>HTML, CSS, Django,Bootstrap, React.js, Node.js</li>
+              <li><span>Cloud & DevOps</span><br>AWS (EC2, S3, IAM, SNS, Lambda, Bedrock), Docker, GitHub Actions</li>
+              <li><span>Cybersecurity Tools</span><br>Wireshark, Nmap, Netcat, Splunk, TheHive, Sysmon</li>
+              <li><span>Data & ML</span><br>Pandas, NumPy, Matplotlib, Amazon Bedrock ,Jupyter Notebook</li>
+              <li><span>Databases</span><br>MySQL, DynamoDB</li>
+              <li><span>Tools & Platforms</span><br>Git, GitHub, VS Code, VirtualBox, VMware, Amazon CloudWatch</li>
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Co-founder</span><br>AfriTechElles (2024 – Present)<br>
+                Building and leading a pan-African tech community to empower women in technology through mentorship,
+                resources, events, and collaboration. Managing community structure, engagement, and strategic growth.
+              </li>
+
+              <li><span>Intern – Cybersecurity</span><br>Center for Cyber Security Studies & Research (2024)<br>
+                Built a Network Vulnerability Scanner web app using Django. Scanned open ports, identified outdated
+                services, and integrated CVE database for vulnerability detection.</li>
+
+              <li><span>Security Operations Center Analyst</span><br>CFSS Cyber & Forensics Security Solutions
+                (2024)<br>
+                Log analysis, anomaly detection, threat hunting using open-source tools, network traffic analysis, and
+                vulnerability reporting. Led an incident response simulation project.</li>
+
+              <li><span>Volunteer</span><br>Geek-Ssters – Cloud Computing Team Lead (2024 – Present)<br>
+                Supporting cloud learning initiatives, organizing knowledge-sharing sessions, and helping women grow in
+                cloud careers.</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Bachelor's degree, AI/ML</span><br>Punjab Technical University, 2022 – 2026</li>
+              <li><span>Aspire Institute</span><br>Educational Leadership and Administration, General, Jan2024 – may2024
+              </li>
+              <li><span>Secondary School Certificate </span><br>Lycee classique de Ngaoundere, 2012 – 2020 </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------projects--------------->
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="projects-list">
+        <div>
+          <i class="fa-solid fa-film"></i>
+          <h2>SPORT API MANAGEMENT SYSTEM</h2>
+          <p></p>
+          <a href="https://medium.com/@abigailsylvie78/sport-api-management-system-a194979fabcb" target="_blank">Try it Now</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-face-laugh"></i>
+          <h2>Fetch and Enhance NCAA Game Videos</h2>
+          <p></p>
+          <a href="https://medium.com/@abigailsylvie78/ncaagamehighlights-1-a-project-to-fetch-and-enhance-ncaa-game-videos-e7d43d1f9ffd" target="_blank">Try it Now</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-heart-pulse"></i>
+          <h2>Women in Tech PartyRock App</h2>
+          <a href="A generative AI app built with AWS PartyRock to help women learn tech skills through simple explanations and personalized guidance." target="_blank"></a>
+          <p></p>
+         <a href="https://partyrock.aws/u/abigail123/7TppAa_Nd/TechPathway" target="_blank">Try it Now</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-message"></i>
+          <h2>Student Connect</h2>
+          <p>A frontend app that enables students to connect, collaborate, and build meaningful academic and professional relationships.</p>
+          <a href="https://github.com/abigailsylvie/meet-student-cm" target="_blank">Try it Now</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-user"></i>
+          <h2>Stay Updated on NBA Games with AWS</h2>
+          <p></p>
+          <a href="https://medium.com/@abigailsylvie78/nba-quicknotify-stay-updated-on-nba-games-with-aws-80b5bdc27a0a" target="_blank">Try it Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="certificates">
+    <div class="container">
+      <h1 class="sub-title" style="text-align: center; font-size: 60px; gap: 10px;padding-bottom: 20px;">My Certificates
+      </h1>
+      <div class="certificate-list">
+        <div class="certificate-item">
+          <i class="fa-regular fa-code"></i> AWS Certified Cloud Practitioner
+          <br><a href="https://www.credly.com/badges/ed26c053-8023-49bf-bc80-66e8218a9443/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          Cloud AWS Cloud Quest: Generative AI Practitioner
+          <br><a href="https://www.credly.com/badges/1b9066c5-0a4d-4d36-acb8-97c6df25ecde/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          Introducing Generative AI with AWS
+          <br><a href="www.udacity.com/certificate/e/c9f9592c-3d0f-11f0-a1d2-6742ec3e46c2" target="_blank">View
+            Certificate</a>
+        </div>
+        <div class="certificate-item">
+          GitHub Foundations
+          <br><a href="https://www.credly.com/badges/2ff06400-57b5-45df-bee5-eb0a812f4aa9/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          All In Africa Open Source Contributor
+          <br><a href="https://www.credly.com/badges/866619df-df38-41bd-9ffc-b99f4051d2cf/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certificate-item">
+          AWS Educate Getting Started with Networking
+          <br><a href="https://www.credly.com/badges/686263ee-8506-478e-aa5e-14b8b5329302/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          Network Support and Security
+          <br><a href="https://www.credly.com/badges/f3a537b3-0be7-4033-9be4-04a44df74f4f/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          AWS Educate Machine Learning Foundations
+          <br><a href="https://www.credly.com/badges/4ce177f7-df09-4f0d-a255-a46ffa26146c/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          AWS Knowledge: Cloud Essentials
+          <br><a href="https://www.credly.com/badges/4fe0d306-b294-4d4b-8edd-cef7569e5b0c/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          Endpoint Security
+          <br><a href="https://www.credly.com/badges/2f3c9321-91e4-41c8-86fa-c0c615a2bca6/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-item">
+          Introduction to Cybersecurity
+          <br><a href="https://www.credly.com/badges/5eba2d42-f1e3-4054-8309-d91dd1ddac3e/public_url"
+            target="_blank">View Certificate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------contact------------------->
+  <div class="contact-me">
+    <h2 class="sub-title" style="font-size: 60px; padding-bottom: 20px; text-align: center;">📬 Get In Touch</h2>
+    <h3 style="font-size: 20px; padding-bottom: 20px; text-align: center;">Let’s connect and build the future together!
+    </h3>
+    <p class="contact-message">
+      Feel free to reach out if you’d like to collaborate, learn together, or just say hi.
+    </p>
+    <div class="btn-group" >
+      <a class="btn" href="mailto:your.email@example.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+
+
+  <div class="bottom-container" style="background-color: #1f59a6; padding: 10px 0;">
+    <div class="footer-links">
+      <a class="footer-link" href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/yourusername">GitHub</a>
+      <a class="footer-link" href="files/Abigail_Sylvie_CV.pdf" target="_blank">CV</a>
+    </div>
+    <p class="copyright" >© 2025 Abigail Sylvie. All rights reserved.</p>
+  </div>
+
+
+  <!------------------------------------------------->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    (function () {
+      emailjs.init("V1iKqG5cd4KGrqB25");
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      emailjs.sendForm("service_3e9cxs7", "template_p558xqo", this)
+        .then(function () {
+          document.getElementById("form-status").innerText = "✅ Message sent successfully!";
+          document.getElementById("contact-form").reset();
+        }, function (error) {
+          document.getElementById("form-status").innerText = "Failed to send message. Try again.";
+          console.error(error);
+        });
+    });
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>
